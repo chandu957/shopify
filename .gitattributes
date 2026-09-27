@@ -1,0 +1,12 @@
+# Set consistent line endings for cross-platform compatibility
+* text=auto eol=lf
+
+# Ensure scripts use LF
+*.js text eol=lf
+*.jsx text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white px-6 py-2 rounded-md font-medium shadow-lg hover:shadow-xl transition-all duration-200;
+  }
+  
+  .product-card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:-translate-y-1 border border-gray-100;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Amazon Ember', 'Segoe UI', Roboto, sans-serif;
+}
+
